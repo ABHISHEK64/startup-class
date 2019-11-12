@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster','cursive';
+
+
+
+}
+
+header {
+    background-image: linear-gradient(to bottom, aqua, white);
+}
+
+
+.navbar {
+    margin-top: -50%;
+
+}
+
+header .nav-link :hover {
+    -or: grey;
+}
+
+header .row .col-md-5 img {
+    width:100%;
+    height:auto;
+    margin-top: 40%;
+    padding: 4.2vmin 1vmin;
+
+    display:block;
+}
+
+header .container .col-md-7 {
+    margin-top: 10%;
+    padding: 22vmin 1vmin;
+    /* padding-bottom: 35vmin; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+.btn1 {
+    padding: 5rem 1.5rem;
+    border: none;
+    border-radius: 4rem;
+    background: rgb(199, 221, 233);
+    color: whitesmoke;
+    font-size: .7rem;
+    font-family: Verdana, Tahoma, sans-serif;
+    box-shadow: 25px 0px 26px 1px rgb(194, 207, 211);
+    cursor: pointer;
+    align-items: center;
+    margin-left: 30%;
+}
+
+/* Sing-up pages desigin */
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98%;
+    max-width: 610px;
+}
+
+.signup .panel {
+    width: 60%;
+    height: 72%;
+
+}
+.heading{
+  margin-top:5rem;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 65% 35%;
+
+}
+
+/*.liquid {
+    background: url(../src/wave2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*/
+.col-liquid h4 {
+    font-size: 0.9rem;
+    color: whitesmoke;
+
+}
+
+.carousel .carousel-item .login_img {
+    float: right;
+    width: 60%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 3rem;
+}
+
+/* sumbit details*/
+.login_img1 {
+    width: 50%;
+    height: 50%;
+}
+
+
+.btn {
+    border-radius: .3rem;
+    align-content: center;
+    background-color: aquamarine;
+    color: whitesmoke;
+    box-shadow: 5px 0px 5px 10px steelblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.titles {
+
+    margin-bottom: 2.2rem;
+}
+
+form {
+    height: 55%;
+    max-height: 280px;
+    margin-top: 5.5rem;
+}
+
+form h3,form h6 {
+    padding: 0;
+    margin: 0;
+    padding-left: 3rem;
+}
+
+form h6 {
+    padding-left: 4.5rem;
+    color: aqua;
+}
+
+form .form-group {
+    text-align: left;
+    border: 1px solid yellow;
+    margin-top: .9rem;
+    margin-right: 0.2rem;
+    border-radius: 3rem;
+}
+
+form .form-group .form-input {
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: none;
+    font-size: 0.9rem;
+    overflow: hidden;
+}
+
+form input:focus {
+    outline: none;
+}
+
+
+
+header .container-fluid .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container-fluid .col-md-7 h1 {
+    font-size: 8vmin;
+    font-weight: bold;
+    /* padding: 0.1em 0em;
+    margin: 0 auto; */
+}
+
+.section-1 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 100%;
+    height: auto;
+    border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -10%;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4rem 0;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+/* Section-2*/
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background-image: url(../src/downloadcover3.png);
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+
+}
+
+/* classes page*/
+.cover .content {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+
+.cover .content h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 6vmin;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 50%;
+}
+
+.numbers {
+    margin-top: -15vmin;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 50px 0px blue;
+}
+
+.numbers .rect h1 {
+    font-size: 4rem;
+    color: aqua;
+}
+
+.numbers .rect p {
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+
+/* type of class  page*/
+.speaker-row{
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: wrap;              /* default value; can be omitted */
+    justify-content: space-around;
+}
+.img-card{
+  margin:1rem;
+
+}
+.flip-card {
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    perspective: 10000;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.4);
+    border: none !important;
+    border-radius: 30px;
+    margin:0 5%;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 30px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 30px;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: white;
+
+}
+
+.flip-card-front img {
+    width: 500px;
+    height: 500px;
+    /* border-color: #fff; */
+    border-radius: 30px;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: skyblue;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 30px;
+}
+
+/*sticky navigation*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+    text-decoration-color: snow;
+}
+
+/*speaker*/
+
+.swiper-container {
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+
+@media only screen and(max-width:360) {
+    .swiper-container {
+        width: 100px;
+        height: 100px;
+
+    }
+
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .swiper-container .card img {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .card {
+        margin-left: 30%;
+
+    }
+}
+
+@media only screen and (max-width:360px) {
+    header.col-md-5 img {
+
+        /* margin-top: -250%; */
+        width: 260px;
+
+
+    }
+
+    header .col-md-7 {
+
+        margin-top: 80%;
+
+
+    }
+
+    .carousel .carousel-item .login_img {
+        margin-top: 20%;
+        height: 300px;
+        width: 300px;
+    }
+
+    .section-3 .col-md-4 {
+        margin-left: -10%;
+    }
+
+    .col-md-4 {
+        margin-left: 5%;
+    }
+
+
+}

@@ -1,0 +1,145 @@
+@media only screen and (max-width:678px) {
+
+  header div.col-md-5 img {
+
+    width: 100%;
+    margin:5 0;
+    align-items: center;
+
+  }
+  h1:first-child{
+    text-align:center;
+
+  }
+  .btn1{
+    margin-left: 25%;
+  }
+  .navbar.fa {
+    margin-left: -10%;
+    cursor: pointer;
+
+  }
+
+  header.container.row.col-md-7.btn1 {
+    width: 90px;
+    height: 90px;
+    border-radius: 4rem;
+  }
+
+
+  .section-1.row.col-md-6.panel {
+    margin-top: 10%;
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+
+  .section-2.cover {
+    background-position: -25vmin -10vmin;
+  }
+
+  .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+    display: block;
+    grid-auto-flow: row;
+  }
+
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+
+  .section-3 .speaker .col-md-4 {
+    margin-left: 10%;
+
+  }
+
+  .col-md-4 {
+    margin-top: 20%;
+    margin-left: 20%;
+  }
+
+  .section-3 .speaker .col-md-4 {
+    display: flex;
+    flex-direction: column;
+
+
+    align-content: center;
+  }
+
+  .section-4 .col-md-4 {
+    margin-left: 20%;
+
+
+  }
+
+  .section-4 .speaker .col-md-4 {
+    display: flex;
+
+    flex-direction: column;
+    align-content: center;
+  }
+
+
+  .carousel .carousel-item .login_img {
+    margin-left: 20%;
+    width: 100%;
+  }
+
+  .section-6 .col-login {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 40%;
+  }
+
+  .section-6 .col-liquid {}
+
+}
+
+
+@media only screen and (max-width:460px) {
+  header .row .col-md-5 img {
+    width: 100%;
+    /* margin-left: -5%; */
+  }
+
+  header .col-md-7 {
+
+    margin-top: 80%;
+
+
+  }
+  .rect{
+    width:5rem;
+    heigth:auto;
+  }
+
+  .carousel .carousel-item .login_img {
+    margin-top: 20%;
+    height: 300px;
+    width: 300px;
+  }
+
+  .section-3 .col-md-4 {
+    margin-left: -10%;
+  }
+
+  .col-md-4 {
+    margin-left: 5%;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+    text-decoration-color: snow;
+  }
+
+
+
+}
